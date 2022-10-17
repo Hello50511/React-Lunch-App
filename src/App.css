@@ -1,0 +1,95 @@
+body {
+  background-color: #282c34;
+  text-align: center;
+  color: white;
+}
+
+.time, .stopwatch {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+}
+
+footer {
+
+  position: absolute;
+
+  left: 0;
+
+  bottom: 0;
+
+  width: 100%;
+
+  text-align: center;
+
+  color: white;
+
+  background: #24272e;
+
+  display: flex;
+
+  justify-content: center;
+
+}
+
+.menu{
+  padding: 25px;
+}
+
+@media (max-width: 569px) {
+  .stopwatch, .heading{
+    font-size: 31px;
+  }
+}
+
+
+@media (max-width: 564px) {
+  .heading, .bigText{
+    font-size: 5px;
+  }
+}
+
+.active{
+  background-color: #1e2129;
+  color: white;
+}
+
+a{
+  color: #7c7c7c;
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+  padding: 15px;
+}
+
+.start{
+  background-color: rgba(116, 236, 116, 0.603);
+  border: 1px rgba(116, 236, 116, 0.603);
+  color: rgba(151, 241, 151, 0.836);
+}
+
+.heading {
+  font-size: 50px;
+}
+
+.bigText {
+  font-size: 20px;
+}
+
+.lunch{
+  margin-top: 10px;
+  font-size: 20px;
+  color: rgb(156, 156, 156);
+}
+
+input{margin: 0;}
+
+.small{
+  font-size: 20px;
+}
